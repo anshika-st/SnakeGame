@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="board"></div>
+    <div class="keys">
+        <div class="up key" data-key="ArrowUp">
+            <i class="ri-arrow-up-circle-line" id="up"></i>
+        </div>
+        <div class="down key" data-key="ArrowDown">
+            <i class="ri-arrow-down-circle-line" id="down"></i>
+        </div>
+        <div class="left key" data-key="ArrowLeft">
+            <i class="ri-arrow-left-circle-line" id="left"></i>
+        </div>
+        <div class="right key" data-key="ArrowRight">
+            <i class="ri-arrow-right-circle-line" id="right"></i>
+        </div>
+    </div>
+    <div class="btn">
+        <button onclick="reset()">Reset</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
