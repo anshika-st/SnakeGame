@@ -33,4 +33,5 @@ Avoid hitting the wall or the snake’s own body.
 Try to beat your high score!
 
 🎮 Demo
-Click here to play the game: 
+Click here to play the game:  https://anshika-st.github.io/SnakeGame/
+
